@@ -5,7 +5,7 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    background-image: url('Images/madrid.jpg'); /* Նկարը որպես ֆոն */
+    background-image: url('images/madrid.jpg'); /* Նկարը որպես ֆոն */
     background-size: cover; /* Նկարը կծածկի ամբողջ տարածքը */
     background-position: center center; /* Նկարի կենտրոնացումը */
     background-repeat: no-repeat; /* Նկարը չի կրկնվի */
