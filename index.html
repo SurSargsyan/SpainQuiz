@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spain Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="menu">
+        <h1>Spain Quiz</h1>
+        <button onclick="startGame()">New Game</button>
+        <button onclick="showRecords()">Record</button>
+        <button onclick="settingGame()">Setting</button>
+    </div>
+    
+    <div id="game" class="game hidden">
+        <h2 id="question">question</h2>
+        <div id="options"></div>
+        <p id="timer">30</p>
+    </div>
+
+    <div id="game-over" class="hidden">
+        <h2>Fin del viaje por España!</h2>
+        <p>Your Record: <span id="score"></span></p>
+        <input type="text" id="playerName" placeholder="Your Name">
+        <button onclick="saveScore()">Save</button>
+    </div>
+
+    <div id="records" class="hidden"></div> <!-- Sección para mostrar registros -->
+    
+    <script src="script.js"></script>
+    <script src="cities.js"></script>
+</body>
+</html>

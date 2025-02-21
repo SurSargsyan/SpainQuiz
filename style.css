@@ -1,0 +1,109 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url('Images/madrid.jpg'); /* Նկարը որպես ֆոն */
+    background-size: cover; /* Նկարը կծածկի ամբողջ տարածքը */
+    background-position: center center; /* Նկարի կենտրոնացումը */
+    background-repeat: no-repeat; /* Նկարը չի կրկնվի */
+    min-height: 100vh; /* Առավելագույն բարձրություն՝ ֆոնային նկարը ծածկելու համար */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#menu {
+    background: #ffffff95;
+    margin: 10px auto;
+    font-size: 25px;
+    height: 300px;
+    width: 300px;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: rgb(1, 0, 0);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+.game {
+    /* margin-top: 50px; */
+    padding: 20px;
+    background: #ffffff95;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#question {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#options button {
+    background-color: #007BFF;
+    width: 200px;
+}
+
+#options button.correct {
+    background-color: #28a745;
+}
+
+#options button.wrong {
+    background-color: #dc3545;
+}
+
+#timer {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+#game-over { 
+    background: #ffffff95;
+    margin: 10px auto;
+    font-size: 25px;
+    height: 300px;
+    width: 300px;
+}
+
+.hidden {
+    display: none;
+}
+
+#records {
+    background: #ffffff95;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px auto;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.record {
+    margin: 5px 0;
+}
+
+.record.highlight {
+    font-weight: bold;
+    color: #28a745; /* Color para resaltar la posición del jugador */
+}
+
+.hidden {
+    display: none;
+}
